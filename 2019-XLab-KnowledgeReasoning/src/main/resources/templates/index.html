@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Knowledge Reasoning Front-End</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.7.1.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/MetadataLayer.js"></script>
+    <script src="js/Ontology.js"></script>
+    <script src="js/Query.js"></script>
+    <script src="js/Rule.js"></script>
+    <script src="js/Event.js"></script>
+</head>
+<body background="img/bg.jpg">
+<div class="container">
+    <div class="shadow-box">
+        <div class="part metadata" >
+            <div class="description">
+                <p class="description-text">构建元数据层的描述</p>
+            </div>
+
+            <div class="input">
+
+            </div>
+
+            <div class="action">
+                <button class="submit-button" onclick="MetadataLayerClick();">构建元数据层</button>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="part ontology">
+            <div class="description">
+                <p class="description-text">本体推理的描述</p>
+            </div>
+
+            <div class="input">
+
+            </div>
+
+            <div class="action">
+                <button class="submit-button" onclick="OntologyClick();">本体推理</button>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="part requery">
+            <div class="description">
+                <p class="description-text">查询的描述</p>
+            </div>
+
+            <div class="input">
+                <form>
+                    <textarea id="query-textarea" rows="7" cols="50" placeholder="请输入你的查询表达式"></textarea>
+                </form>
+            </div>
+
+            <div class="action">
+                <button class="submit-button" onclick="QueryClick();">查询</button>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="part rule">
+            <div class="description" >
+                <p class="description-text">规则的描述</p>
+            </div>
+
+            <div class="input">
+                <form>
+                    <textarea id="rule-textarea" rows="7" cols="50" placeholder="请输入你的查询规则"></textarea>
+                </form>
+            </div>
+
+            <div class="action">
+                <button class="submit-button" onclick="RuleClick();">规则推理</button>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="part event">
+        <div class="description" >
+            <p class="description-text">完整的规则推理，输入service名字，获取到错误事件</p>
+        </div>
+
+        <div class="input">
+            <form>
+                <textarea id="event-textarea" rows="7" cols="50" placeholder="请输入service名称"></textarea>
+            </form>
+        </div>
+
+        <div class="action">
+            <button class="submit-button" onclick="EventClick();">获取错误事件</button>
+        </div>
+        <div class="clear"></div>
+    </div>
+    </div>
+</div>
+
+</body>
+</html>
