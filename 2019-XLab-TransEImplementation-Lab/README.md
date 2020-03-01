@@ -1,5 +1,17 @@
 # 2019-XLab-TransEImplementation
-[TOC]
+
+Table of Contents
+=================
+
+   * [2019-XLab-TransEImplementation](#2019-xlab-transeimplementation)
+      * [Introduction](#introduction)
+      * [How to Build](#how-to-build)
+         * [Environment Requirements](#environment-requirements)
+         * [Get the Project](#get-the-project)
+         * [Import the Project to IDE](#import-the-project-to-ide)
+      * [How to Run](#how-to-run)
+      * [How to Use](#how-to-use)
+      * [Code Structure](#code-structure)
 
 ------
 
