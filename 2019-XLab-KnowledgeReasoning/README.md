@@ -1,6 +1,17 @@
 # 2019-XLab-KnowledgeReasoning
 
-[TOC]
+Table of Contents
+=================
+
+   * [2019-XLab-KnowledgeReasoning](#2019-xlab-knowledgereasoning)
+      * [Introduction](#introduction)
+      * [How to Build](#how-to-build)
+         * [Environment Requirements](#environment-requirements)
+         * [Get the Project](#get-the-project)
+         * [Import the Project to IDE](#import-the-project-to-ide)
+      * [How to Run](#how-to-run)
+      * [How to Use](#how-to-use)
+      * [Code Structure](#code-structure)
 
 ------
 
