@@ -1,13 +1,9 @@
 # x-Lab 知识推理 | KnowledgeReasoning
 
-Table of Contents
-=================
-
-   * [x-Lab 知识推理 | KnowledgeReasoning](#x-lab-知识推理--knowledgereasoning)
-     * [项目 | Projects](#项目--projects)
-     * [项目文档 | Documents](#项目文档--documents)
-     * [学习笔记 | Study Notes](#学习笔记--study-notes)
-     * [关于作者 | About the Auther](#关于作者--about-the-auther)
+* [项目 | Projects](#项目--projects)
+* [项目文档 | Documents](#项目文档--documents)
+* [学习笔记 | Study Notes](#学习笔记--study-notes)
+* [关于作者 | About the Auther](#关于作者--about-the-auther)
 
 ------
 
